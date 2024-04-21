@@ -1,0 +1,30 @@
+y = input("Enter the name of the name:")
+
+both_names = (x + y)
+
+lower_case_str = both_names.lower()
+
+t = lower_case_str.count("t")
+r = lower_case_str.count("r")
+u = lower_case_str.count("u")
+e = lower_case_str.count("e")
+
+
+first = t + r + u + e
+
+
+l = lower_case_str.count("l")
+o  =  lower_case_str.count("o")
+v =    lower_case_str.count("v")
+e = lower_case_str.count("e")
+
+second = l + o + v + e
+
+combined_str = str(first) + str(second)
+
+
+print(combined_str)
+
+# print(type(both_names))
+
+
